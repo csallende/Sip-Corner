@@ -165,11 +165,6 @@ span {
   color: white;
   font-family: 'Caviar Dreams', arial; }
 
-.formulario__h2 {
-  padding-bottom: 20px;
-  color: white;
-  font-family: 'Caviar Dreams', arial; }
-
 p {
   margin: 0 0 25px;
   font-size: 18px;
@@ -237,9 +232,13 @@ ul.social-network li {
 .social-network a.icoInstagram:hover {
   background-color: #DD2A7B; }
 
+.social-network a.icoWhatsapp:hover {
+  background-color: #25D366; }
+
 .social-network a.icoTwitter:hover i,
 .social-network a.icoFacebook:hover i,
-.social-network a.icoInstagram:hover i {
+.social-network a.icoInstagram:hover i,
+.social-network a.icoWhatsapp:hover i {
   color: #fff; }
 
 .social-network a.socialIcon:hover,
