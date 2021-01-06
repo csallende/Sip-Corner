@@ -93,6 +93,79 @@ background-size: cover;}
   color: white;
   text-decoration: underline;
 }
+
+
+/* Categorías Tienda */
+
+.tienda__h2{
+  font-size: 18px;
+    font-family: 'Caviar Dreams', arial;
+    font-weight: bold;
+    color: white
+}
+
+.parrafoCards{
+  color: white;
+    font-family: 'Caviar Dreams', arial;  
+}
+
+/* Conocenos */
+
+.parrafoConocenos {
+  color: white; 
+    font-family: 'Caviar Dreams', arial;
+    font-size: 16px;
+  }
+
+.imagenNosotros{
+  align-content: center;
+ }
+
+/* Formulario Contacto */
+
+span{
+  color: white; 
+  font-family: 'Caviar Dreams', arial;
+}
+
+.formulario__h1{
+  padding-top: 20px;
+  color: white; 
+  font-family: 'Caviar Dreams', arial;
+}
+
+.formulario__h2{
+  padding-bottom: 20px;
+  color: white; 
+  font-family: 'Caviar Dreams', arial;
+}
+
+p{
+  margin:0 0 25px;
+  font-size:18px;
+  line-height:1.6em;
+  color: white; 
+  font-family: 'Caviar Dreams', arial;
+}
+
+a:hover,a:focus{
+  text-decoration:none;
+  color: white; 
+  font-family: 'Caviar Dreams', arial;
+}
+
+textarea.form-control{
+    height:100px;
+}
+
+
+label {
+  color: white;
+    font-family: 'Caviar Dreams', arial;  
+}
+
+
+
 /* Pie de Página */
 
 footer {
@@ -113,7 +186,6 @@ footer a:hover {
 }
 
 .copy {
-  font-size: 12px;
   padding: 10px;
   border-top: 1px solid #FFFFFF;
 }
@@ -146,16 +218,21 @@ ul.social-network li {
 
 /* footer social icons */
 
+.social-network a.icoTwitter:hover {
+  background-color: #08a0e9;
+}
+
 .social-network a.icoFacebook:hover {
   background-color: #3B5998;
 }
 
-.social-network a.icoLinkedin:hover {
-  background-color: #007bb7;
+.social-network a.icoInstagram:hover {
+  background-color: #DD2A7B;
 }
 
+.social-network a.icoTwitter:hover i,
 .social-network a.icoFacebook:hover i,
-.social-network a.icoLinkedin:hover i {
+.social-network a.icoInstagram:hover i {
   color: #fff;
 }
 
@@ -209,41 +286,4 @@ ul.social-network li {
   background-color: #F9F9F9;
 }
 
-/* Categorías Tienda */
-
-.tienda__h2{
-  font-size: 18px;
-    font-family: 'Caviar Dreams', arial;
-    font-weight: bold;
-    color: white
-}
-
-.parrafoCards{
-  color: white;
-    font-family: 'Caviar Dreams', arial;  
-}
-
-/* Conocenos */
-
-.parrafoConocenos {
-  color: white; 
-    font-family: 'Caviar Dreams', arial;
-    font-size: 16px;
-  }
-
-.imagenNosotros{
-  align-content: center;
- }
-
-/* Formulario Contacto */
-
-.block__subtituloFormulario {
-  color: white; 
-    font-family: 'Caviar Dreams', arial;
- }
-
-label {
-  color: white;
-    font-family: 'Caviar Dreams', arial;  
-}
 

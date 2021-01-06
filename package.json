@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/csallende/Sip-Corner.git"
   },
-  "author": "",
+  "author": "Carla Allende",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/csallende/Sip-Corner/issues"
