@@ -146,6 +146,9 @@ footer {
   color: white;
   margin-top: 100px; }
 
+footer h3 {
+  font-size: 16px; }
+
 footer a {
   color: #fff;
   font-size: 14px;
@@ -165,9 +168,6 @@ footer a:hover {
 
 /*Iconos RRSS*/
 /* footer iconos RRSS */
-footer h3 {
-  font-size: 16px; }
-
 ul.social-network {
   list-style: none;
   display: inline;
@@ -236,3 +236,14 @@ ul.social-network li {
 
 .social-network a {
   background-color: #F9F9F9; }
+
+/* Animaciones */
+.animacion {
+  animation-duration: 3s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
