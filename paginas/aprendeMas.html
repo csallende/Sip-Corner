@@ -16,6 +16,10 @@
    	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
 	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
 
+	<!-- Animaciones -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 	<!-- Favicon -->
 
 	<link rel="icon" href="../imagenes/faviconsip.png" type="image/png"/>
@@ -45,21 +49,21 @@
 		          <a class="nav-link" href="conocenos.html">Conocenos</a>
 		        </li>
 		        <li class="nav-item active">
-		          <a class="nav-link dropdown-toggle" href="aprendeMas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Aprendé +</a>
+		          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Aprendé +</a>
 		          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: #962727">
-		            <li><a class="dropdown-item" href="#">Vinos</a></li>
-		            <li><a class="dropdown-item" href="#">Espumosos</a></li>
-		            <li><a class="dropdown-item" href="#">Destilados</a></li>
-		            <li><a class="dropdown-item" href="#">Cervezas</a></li>
+		            <li><a class="dropdown-item" href="aprendeMas.html">Vinos</a></li>
+		            <li><a class="dropdown-item" href="aprendeMas.html">Espumosos</a></li>
+		            <li><a class="dropdown-item" href="aprendeMas.html">Destilados</a></li>
+		            <li><a class="dropdown-item" href="aprendeMas.html">Cervezas</a></li>
 		          </ul>
 		        </li>
 		        <li class="nav-item">
-		          <a class="nav-link dropdown-toggle" href="tienda.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tienda</a>
+		          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tienda</a>
 		          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: #962727">
-		            <li><a class="dropdown-item" href="#">Vinos</a></li>
-		            <li><a class="dropdown-item" href="#">Espumosos</a></li>
-		            <li><a class="dropdown-item" href="#">Destilados</a></li>
-		            <li><a class="dropdown-item" href="#">Cervezas</a></li>
+		            <li><a class="dropdown-item" href="tienda.html">Vinos</a></li>
+		            <li><a class="dropdown-item" href="tienda.html">Espumosos</a></li>
+		            <li><a class="dropdown-item" href="tienda.html">Destilados</a></li>
+		            <li><a class="dropdown-item" href="tienda.html">Cervezas</a></li>
 		          </ul>
 		        </li>
 		        <li class="nav-item">
@@ -73,36 +77,36 @@
 	<!-- Categorías -->
 
 	<main class="container-fluid">
-		<div class="row" style="margin: 30px; margin-left: 50px;">
-			<div class="card" style="width: 18rem; background-color: #962727">
-			  <img src="../imagenes/vinos.jpeg" class="card-img-top" alt="Vino">
+		<div class="row" style="margin:20px; margin-top: 90px; margin-left: 50px; justify-content: space-between;">
+			<div class="card" class="animate__animated animate__slideInRight" style="width: 18rem; background-color: #962727">
+			  <img src="../imagenes/maridaje.jpg" class="card-img-top" height="148" style="margin-top: 10px" alt="Vino y maridaje" >
 			  <div class="card-body" style="background-color: #962727">
-			    <h2 class="tienda__h2">Vinos</h2>
-			    <p class="card-text" style="color: white">Los mejores ejemplares de las bodegas argentinas</p>
+			    <h1 class="seccion__h1">Vinos</h1>
+			    <p class="card-text" style="color: white">Desde la viña hasta tu mesa, enterate lo que pasa alrededor del vino!</p>
+			    <a href="#" class="btn btn-primary" style="background-color: white; color: #962727; border: none;">Descubrí más</a>
+			  </div>
+			</div>
+			<div class="card" class="animate__animated animate__slideInRight" style="width: 18rem; background-color: #962727">
+			  <img src="../imagenes/celebracion.jpg" class="card-img-top" height="148" style="margin-top: 10px" alt="Brindis con champagne">
+			  <div class="card-body" style="background-color: #962727">
+			    <h2 class="seccion__h2">Espumosos</h2>
+			    <p class="card-text" style="color: white">Elegancia y exclusividad, conocé a fondo el universo de las burbujas!</p>
+			    <a href="#" class="btn btn-primary" style="background-color: white; color: #962727; border: none;">Descubrí más</a>
+			  </div>
+			</div>
+			<div class="card" class="animate__animated animate__slideInRight" style="width: 18rem; background-color: #962727">
+			  <img src="../imagenes/whisky.jpg" class="card-img-top" style="margin-top: 10px" width="50" height="148" alt="Vasos de Whisky" >
+			  <div class="card-body" class="animate__animated animate__slideInRight" style="background-color: #962727">
+			    <h2 class="seccion__h2">Destilados</h2>
+			    <p class="card-text" style="color: white">Todas las curiosidades de la gran diversidad de bebidas destiladas!</p>
 			    <a href="#" class="btn btn-primary" style="background-color: white; color: #962727; border: none;">Descubrí más</a>
 			  </div>
 			</div>
 			<div class="card" style="width: 18rem; background-color: #962727">
-			  <img src="../imagenes/espumantes.jpg" class="card-img-top" alt="Vino">
+			  <img src="../imagenes/brindisCerveza.jpg" class="card-img-top" style="margin-top: 10px" width="50" height="148" alt="Brindis con cerveza">
 			  <div class="card-body" style="background-color: #962727">
-			    <h2 class="tienda__h2">Espumosos</h2>
-			    <p class="card-text" style="color: white">Una selección única de burbujas</p>
-			    <a href="#" class="btn btn-primary" style="background-color: white; color: #962727; border: none;">Descubrí más</a>
-			  </div>
-			</div>
-			<div class="card" style="width: 18rem; background-color: #962727">
-			  <img src="../imagenes/destilados.jpg" class="card-img-top" alt="Vino" width="50" height="148">
-			  <div class="card-body" style="background-color: #962727">
-			    <h2 class="tienda__h2">Destilados</h2>
-			    <p class="card-text" style="color: white">La mejor calidad en productos destilados</p>
-			    <a href="#" class="btn btn-primary" style="background-color: white; color: #962727; border: none;">Descubrí más</a>
-			  </div>
-			</div>
-			<div class="card" style="width: 18rem; background-color: #962727">
-			  <img src="../imagenes/cervezas.jpg" class="card-img-top" alt="Vino" width="50" height="148">
-			  <div class="card-body" style="background-color: #962727">
-			    <h2 class="tienda__h2">Cervezas</h2>
-			    <p class="card-text" style="color: white">La medida perfecta de espuma y lupulado</p>
+			    <h2 class="seccion__h2">Cervezas</h2>
+			    <p class="card-text" style="color: white">Desvelá los secretros detrás bebida que es el boom en nuestros tiempos! </p>
 			    <a href="#" class="btn btn-primary" style="background-color: white; color: #962727; border: none;">Descubrí más</a>
 			  </div>
 			</div>
